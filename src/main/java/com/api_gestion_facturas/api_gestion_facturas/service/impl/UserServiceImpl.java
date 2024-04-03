@@ -1,8 +1,9 @@
-package com.api_gestion_facturas.api_gestion_facturas.service;
+package com.api_gestion_facturas.api_gestion_facturas.service.impl;
 
 import com.api_gestion_facturas.api_gestion_facturas.constantes.FacturasConstantes;
 import com.api_gestion_facturas.api_gestion_facturas.dao.UserDAO;
 import com.api_gestion_facturas.api_gestion_facturas.pojo.User;
+import com.api_gestion_facturas.api_gestion_facturas.service.UserService;
 import com.api_gestion_facturas.api_gestion_facturas.util.FacturaUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
